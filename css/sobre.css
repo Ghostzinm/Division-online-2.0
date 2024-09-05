@@ -1,0 +1,209 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+ul {
+    padding: 0px;
+}
+
+
+.menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+
+main { 
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+
+
+.header2 {
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: black;
+    margin-left: 15px;
+    line-height: 50px;
+    height: auto;
+}
+
+.menu ul li a:hover {
+    padding: 0px 0px 15px ;
+    border-bottom: 2px solid #0098c6 ;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-style:oblique;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .dark .menu ul li a {
+    color: white;
+  }
+  
+  .menu ul li a:hover {
+    color: #0098c6;
+  }
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.center-lg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+  }
+
+nav ul {
+    display:flex;
+justify-content: space-between;
+list-style-type: none;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 10px 10px 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    height: 16vh;
+    bottom: 0;
+    position: fixed; /* Alterado para 'fixed' */
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    z-index: 999; /* Para garantir que o footer fique sempre acima do conteúdo */
+}
+
+
+footer p {
+    margin: 10px;
+    font-size: 20px;
+}
+footer a {
+    justify-content: center;
+    text-align: center;
+
+}
+
+nav a:hover{
+    color: orangered;
+}
+
+h2 {
+    color: orangered;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 p {
+    text-align: center;
+    justify-content: center;
+}
+h1 {
+    justify-content: center;
+    text-align: center;
+    color: orangered;
+}
+
+section ul {
+    font-style: normal;
+    
+
+}
+
+section {
+    text-align: left;
+    justify-content: center;
+}
+
+footer img{
+    height: 50px;
+    width: 50px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    h3 {
+       font-size: 20px ;
+       justify-content: center;
+       text-align: center;
+       margin: 10px ;
+    }
+   
+    .menu ul li {
+       display: flexbox;
+       font-size: 10px;
+    }
+   
+   
+    footer {
+       display: flex;
+       position: relative;
+    }
+    
+    .insta img {
+     height: 0px;
+     width: 0px;
+    }
+
+    .logo {
+        height: 100px;
+        width: 100px;
+  margin: 40px;
+    }
+
+
+    footer p {
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    footer {
+        height: 20vh;
+    }
+   }
+   

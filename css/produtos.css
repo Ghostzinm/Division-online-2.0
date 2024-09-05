@@ -1,0 +1,285 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    color: black;
+    list-style: none;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .welcome-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    animation: fadeIn 1s ease-out;
+  }
+  
+
+.menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    width: auto;
+}
+
+
+
+nav ul {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+nav a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+h2 {
+    color: orangered;
+    text-align: center;
+}
+
+h2 p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+section ul {
+    font-style: normal;
+}
+
+section {
+    text-align: left;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navbar>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+  /*filters*/
+.filters {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+fieldset{
+    background-color: #333333;
+    color: white;
+    border-color: black;
+}
+legend {
+   color: white;
+   background-color: black;
+   
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+}
+
+/*cards*/
+.card {
+    margin: 10px 10px 0px 0px;
+    width: 195px;
+    height: 400px;     
+    padding:.8em;
+    background: #ffffff;
+    border: 1px solid #252525;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-img {
+    background-color: #ffffff;
+    height: 50%;
+    width: 90%;
+    border-radius:.5rem;
+    transition:.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.card-info {
+    padding-top: 10%;
+}
+
+.text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.text-body {
+    font-size:.9em;
+    padding-bottom: 10px;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    border-top: 1px solid #d15959;
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+}
+
+.card-button {
+    background-color: blue;
+    border: 1px solid blue;
+    display: flex;
+    padding:.3em;
+    align-self: center;
+    cursor: pointer;
+    border-radius: 50px;
+    transition:.3s ease-in-out;
+    color: white;
+}
+
+.card-button:hover {
+    color: orange;
+}
+
+/* fim card*/
+
+/*footer*/
+footer {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    height: 15vh;
+    bottom: 0 ;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+main p {
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Max img {
+    height: 60%;
+    width: 60%;
+    margin-left: 50px;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+nav {
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+
+ padding-left: 2em;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    nav {
+        display: flex;
+        font-size: 15px;
+    }
+
+  
+}
+
+
